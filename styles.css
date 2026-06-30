@@ -341,6 +341,76 @@ h1,h2,h3{ font-family: var(--font-display); color: var(--ink); margin:0 0 .5em; 
 }
 
 /* ===========================================================
+   EVENT DETAIL
+   =========================================================== */
+.event-detail-hero{
+  padding: 72px 0 54px;
+  background: #fff;
+  border-bottom: 1px solid var(--line);
+}
+.event-detail-hero-inner{ max-width: 860px; }
+.event-detail-hero .text-link{ display:inline-block; margin-bottom:28px; }
+.event-detail-hero h1{
+  font-size: clamp(2.2rem, 4.2vw, 3.6rem);
+  margin-bottom:18px;
+}
+.event-detail-hero p:not(.kicker){
+  color: var(--muted);
+  font-size:1.08rem;
+  max-width:720px;
+}
+.event-detail-content{ padding: 72px 0; }
+.event-detail-grid{
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  gap:32px;
+  align-items:start;
+}
+.event-story{
+  background:#fff;
+  border:1px solid var(--line);
+  border-radius: var(--radius);
+  padding:32px;
+  box-shadow: var(--shadow-sm);
+}
+.event-story h2{ font-size:1.55rem; }
+.event-story p{ color: var(--muted); margin:0 0 16px; }
+.event-story p:last-child{ margin-bottom:0; }
+.event-detail-grid .event-story:last-child:nth-child(odd){ grid-column:1 / -1; }
+.event-story-pashto{
+  font-family: var(--font-ar);
+  font-size:1.05rem;
+  line-height:1.9;
+}
+.event-story-pashto h2,
+.event-story-pashto .kicker{ font-family: var(--font-ar); }
+.event-gallery-section{ padding: 0 0 96px; }
+.event-gallery{
+  display:grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap:14px;
+}
+.event-gallery img{
+  width:100%;
+  aspect-ratio: 4 / 3;
+  object-fit:cover;
+  border-radius:10px;
+  border:1px solid var(--line);
+  background:#fff;
+}
+
+@media (max-width: 900px){
+  .event-detail-grid{ grid-template-columns:1fr; }
+  .event-gallery{ grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (max-width: 560px){
+  .event-detail-hero{ padding-top:48px; }
+  .event-story{ padding:24px; }
+  .event-gallery{ grid-template-columns:1fr; }
+}
+
+/* ===========================================================
    COMMUNITY / QUOTES
    =========================================================== */
 .community{ background: var(--canvas-dim); padding: 96px 0; }
