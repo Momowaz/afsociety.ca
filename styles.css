@@ -282,7 +282,7 @@ h1,h2,h3{ font-family: var(--font-display); color: var(--ink); margin:0 0 .5em; 
    =========================================================== */
 .programs{ background: var(--ink); padding: 96px 0; color:#fff; }
 .section-head{ max-width: 640px; margin: 0 auto 56px; text-align:center; }
-.section-head h2{ color:#fff; font-size: clamp(1.9rem, 3vw, 2.4rem); }
+.section-head h2{ font-size: clamp(1.9rem, 3vw, 2.4rem); }
 .programs .section-head h2{ color:#fff; }
 .section-sub{ color: rgba(255,255,255,0.65); font-size:1.02rem; }
 .section-sub.left{ text-align:left; margin:0 0 28px; color: var(--muted); }
@@ -351,6 +351,7 @@ h1,h2,h3{ font-family: var(--font-display); color: var(--ink); margin:0 0 .5em; 
 .event-detail-hero-inner{ max-width: 860px; }
 .event-detail-hero .text-link{ display:inline-block; margin-bottom:28px; }
 .event-detail-hero h1{
+  color: var(--ink);
   font-size: clamp(2.2rem, 4.2vw, 3.6rem);
   margin-bottom:18px;
 }
@@ -373,7 +374,7 @@ h1,h2,h3{ font-family: var(--font-display); color: var(--ink); margin:0 0 .5em; 
   padding:32px;
   box-shadow: var(--shadow-sm);
 }
-.event-story h2{ font-size:1.55rem; }
+.event-story h2{ color: var(--ink); font-size:1.55rem; }
 .event-story p{ color: var(--muted); margin:0 0 16px; }
 .event-story p:last-child{ margin-bottom:0; }
 .event-detail-grid .event-story:last-child:nth-child(odd){ grid-column:1 / -1; }
