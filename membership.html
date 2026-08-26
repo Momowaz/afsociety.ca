@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Apply to become a member of the Afghan National Cultural Society in British Columbia.">
+<title>Become a Member — Afghan National Cultural Society</title>
+<link rel="icon" type="image/png" href="favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,500;0,600;0,700;1,500&family=Inter:wght@400;500;600;700;800&family=Noto+Naskh+Arabic:wght@500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="topbar">
+  <div class="topbar-inner">
+    <div class="topbar-item"><a href="tel:+16043663267">+1 (604) 366-3267</a></div>
+    <div class="topbar-item"><a href="mailto:info.afsociety@gmail.com">info.afsociety@gmail.com</a></div>
+    <div class="topbar-item topbar-loc"><span>Serving Afghans across British Columbia</span></div>
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="nav-wrap">
+    <a href="index.html" class="brand">
+      <img src="logo.png" alt="ANCS Logo" class="brand-mark">
+      <span class="brand-text"><strong>ANCS</strong><small>Afghan National Cultural Society</small></span>
+    </a>
+    <nav class="main-nav">
+      <a href="index.html#about">About</a>
+      <a href="index.html#programs">Programs</a>
+      <a href="index.html#events">Events</a>
+      <a href="index.html#community">Community</a>
+      <a href="index.html#contact">Contact</a>
+    </nav>
+    <a href="index.html" class="btn btn-primary nav-cta">Back to Home</a>
+    <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<main class="membership-main">
+  <div class="section-inner">
+    <div class="membership-intro">
+      <p class="kicker">Join Our Community</p>
+      <h1>Membership Application</h1>
+      <p>Complete the form below to apply for membership with the Afghan National Cultural Society. Our team will review your application and contact you.</p>
+    </div>
+
+    <form class="contact-form membership-form" action="https://formspree.io/f/mlgywgwe" method="POST">
+      <input type="hidden" name="_subject" value="New ANCS Membership Application">
+      <label class="form-honeypot" aria-hidden="true">Leave this field empty
+        <input type="text" name="_gotcha" tabindex="-1" autocomplete="off">
+      </label>
+      <p class="form-note"><strong>All fields are required.</strong> Your information will only be used to review and respond to your membership application.</p>
+
+      <section class="form-section" aria-labelledby="member-details-heading">
+        <h2 id="member-details-heading">Member Details</h2>
+        <div class="form-row">
+          <label>First name
+            <input type="text" name="first_name" autocomplete="given-name" placeholder="Your first name" required>
+          </label>
+          <label>Last name
+            <input type="text" name="last_name" autocomplete="family-name" placeholder="Your last name" required>
+          </label>
+        </div>
+        <fieldset class="radio-group">
+          <legend>Gender</legend>
+          <div class="radio-options">
+            <label class="radio-option"><input type="radio" name="gender" value="Male" required> Male</label>
+            <label class="radio-option"><input type="radio" name="gender" value="Female"> Female</label>
+            <label class="radio-option"><input type="radio" name="gender" value="Prefer not to say"> Prefer not to say</label>
+          </div>
+        </fieldset>
+        <div class="form-row">
+          <label>Email
+            <input type="email" name="email" autocomplete="email" placeholder="you@example.com" required>
+          </label>
+          <label>Phone number
+            <input type="tel" name="phone" autocomplete="tel" placeholder="+1 (604) 000-0000" required>
+          </label>
+        </div>
+        <label>Address
+          <input type="text" name="address" autocomplete="street-address" placeholder="Your street address" required>
+        </label>
+        <div class="form-row">
+          <label>City
+            <input type="text" name="city" autocomplete="address-level2" placeholder="Your city" required>
+          </label>
+          <label>Postal code
+            <input type="text" name="postal_code" autocomplete="postal-code" placeholder="A1A 1A1" pattern="[A-Za-z][0-9][A-Za-z][ -]?[0-9][A-Za-z][0-9]" title="Enter a valid Canadian postal code" required>
+          </label>
+        </div>
+      </section>
+
+      <section class="form-section" aria-labelledby="qualifications-heading">
+        <h2 id="qualifications-heading">Member Qualifications</h2>
+        <fieldset class="radio-group">
+          <legend>Are you a British Columbia resident?</legend>
+          <div class="radio-options">
+            <label class="radio-option"><input type="radio" name="bc_resident" value="Yes" required> Yes</label>
+            <label class="radio-option"><input type="radio" name="bc_resident" value="No"> No</label>
+          </div>
+        </fieldset>
+        <label class="province-field" hidden>Province or territory
+          <select name="province" disabled>
+            <option value="" selected disabled>Select your province or territory</option>
+            <option value="Alberta">Alberta</option>
+            <option value="Manitoba">Manitoba</option>
+            <option value="New Brunswick">New Brunswick</option>
+            <option value="Newfoundland and Labrador">Newfoundland and Labrador</option>
+            <option value="Northwest Territories">Northwest Territories</option>
+            <option value="Nova Scotia">Nova Scotia</option>
+            <option value="Nunavut">Nunavut</option>
+            <option value="Ontario">Ontario</option>
+            <option value="Prince Edward Island">Prince Edward Island</option>
+            <option value="Quebec">Quebec</option>
+            <option value="Saskatchewan">Saskatchewan</option>
+            <option value="Yukon">Yukon</option>
+          </select>
+        </label>
+        <label>Age group
+          <select name="age_group" required>
+            <option value="" selected disabled>Select your age group</option>
+            <option value="16 Years or Over">16 years or over</option>
+            <option value="65 Years or Over">65 years or over</option>
+            <option value="Full-Time Student">Full-time student</option>
+          </select>
+        </label>
+      </section>
+
+      <section class="form-section" aria-labelledby="declaration-heading">
+        <h2 id="declaration-heading">Member Declaration</h2>
+        <div class="declaration-box">
+          <ul>
+            <li>The information in this application is complete and accurate to the best of my knowledge.</li>
+            <li>I support the Society’s purpose of strengthening unity, culture, and community.</li>
+            <li>I will treat members, volunteers, staff, and community partners with dignity and respect.</li>
+            <li>I agree to follow the Society’s bylaws, policies, and code of conduct.</li>
+            <li>I consent to the Society using my information to assess my application and communicate with me about membership.</li>
+            <li>I understand that submitting this form does not guarantee acceptance and that the Society may contact me for more information.</li>
+          </ul>
+          <label class="declaration-check">
+            <input type="checkbox" name="member_declaration" value="Agreed" required>
+            <span>I have read and agree to the Member Declaration above.</span>
+          </label>
+        </div>
+      </section>
+
+      <button type="submit" class="btn btn-primary btn-block">Submit Membership Application</button>
+    </form>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="section-inner footer-grid">
+    <div class="footer-brand"><img src="logo.png" alt="ANCS Logo"><p>Afghan National Cultural Society — working for the integration and unity of Afghans in British Columbia. Est. 2021.</p></div>
+    <div class="footer-col"><h4>Explore</h4><a href="index.html#about">About Us</a><a href="index.html#programs">Programs</a><a href="index.html#events">Events</a></div>
+    <div class="footer-col"><h4>Contact</h4><a href="tel:+16043663267">+1 (604) 366-3267</a><a href="mailto:info.afsociety@gmail.com">info.afsociety@gmail.com</a><a href="https://www.facebook.com/profile.php?id=100090838821300" target="_blank" rel="noopener noreferrer">Facebook</a><a href="index.html#contact">Send a message</a></div>
+    <div class="footer-col"><h4>Society</h4><a href="membership.html">Membership</a><a href="index.html#contact">Volunteer</a><a href="index.html#contact">Donate</a></div>
+  </div>
+  <div class="footer-bottom"><span>© 2026 Afghan National Cultural Society (ANCS). All rights reserved.</span><a class="developer-credit" href="https://www.mohibwaziri.ca/" target="_blank" rel="noopener noreferrer">Developed with ❤️ by Mohib</a><span class="footer-tagline">وحدت در فرهنگ — Unity Through Culture</span></div>
+</footer>
+
+<script>
+  const toggle = document.querySelector('.nav-toggle');
+  toggle.addEventListener('click', () => {
+    const open = document.body.classList.toggle('nav-open');
+    toggle.setAttribute('aria-expanded', open);
+  });
+  document.querySelectorAll('.main-nav a').forEach(link => {
+    link.addEventListener('click', () => document.body.classList.remove('nav-open'));
+  });
+  const header = document.querySelector('.site-header');
+  window.addEventListener('scroll', () => header.classList.toggle('scrolled', window.scrollY > 10));
+
+  const residencyOptions = document.querySelectorAll('input[name="bc_resident"]');
+  const provinceField = document.querySelector('.province-field');
+  const provinceSelect = provinceField.querySelector('select');
+
+  residencyOptions.forEach(option => {
+    option.addEventListener('change', () => {
+      const livesOutsideBC = option.checked && option.value === 'No';
+      provinceField.hidden = !livesOutsideBC;
+      provinceSelect.disabled = !livesOutsideBC;
+      provinceSelect.required = livesOutsideBC;
+
+      if (!livesOutsideBC) provinceSelect.value = '';
+    });
+  });
+</script>
+</body>
+</html>
