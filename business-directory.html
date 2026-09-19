@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Find Afghan restaurants, grocery stores and bakeries in British Columbia. Search by name and filter by city or business type.">
+<title>Afghan Business Directory in BC — ANCS</title>
+<link rel="icon" type="image/png" href="favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,500;0,600;0,700;1,500&family=Inter:wght@400;500;600;700;800&family=Noto+Naskh+Arabic:wght@500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="business-directory.css">
+<script src="business-directory.js" defer></script>
+</head>
+<body>
+<a class="directory-skip" href="#directory">Skip to directory</a>
+<div class="topbar">
+  <div class="topbar-inner">
+    <div class="topbar-item"><a href="tel:+16043663267">+1 (604) 366-3267</a></div>
+    <div class="topbar-item"><a href="mailto:info.afsociety@gmail.com">info.afsociety@gmail.com</a></div>
+    <div class="topbar-item topbar-loc"><span>Serving Afghans across British Columbia</span></div>
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="nav-wrap">
+    <a href="index.html" class="brand">
+      <img src="logo.png" alt="ANCS Logo" class="brand-mark">
+      <span class="brand-text"><strong>ANCS</strong><small>Afghan National Cultural Society</small></span>
+    </a>
+    <nav class="main-nav" aria-label="Main navigation" id="main-navigation">
+      <a href="index.html#about">About</a>
+      <a href="index.html#programs">Programs</a>
+      <a href="index.html#events">Events</a>
+      <a href="business-directory.html" aria-current="page">Afghan Business Directory</a>
+      <a href="index.html#contact">Contact</a>
+    </nav>
+    <a href="index.html" class="btn btn-primary nav-cta">Back to Home</a>
+    <button class="nav-toggle" aria-controls="main-navigation" aria-label="Toggle menu" aria-expanded="false"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<main id="directory" class="directory-main">
+  <section class="directory-hero">
+    <div class="section-inner directory-hero-inner">
+      <div>
+        <p class="kicker">Discover local · Support our community</p>
+        <h1>A taste of home,<br><em>closer than you think.</em></h1>
+        <p class="directory-lede">Explore Afghan restaurants, grocery stores and bakeries across British Columbia. Find your next family meal, fresh naan or the ingredients you grew up with.</p>
+        <a class="text-link" href="#businesses">Explore the directory <span aria-hidden="true">↓</span></a>
+      </div>
+      <aside class="directory-intro-card" aria-label="About the directory">
+        <span class="directory-emblem" aria-hidden="true">✳</span>
+        <h2>Our neighbourhood.<br>Our flavours.</h2>
+        <p><strong>32 places</strong> across <strong>10 BC cities</strong></p>
+        <p>Restaurants · Groceries · Bakeries</p>
+      </aside>
+    </div>
+  </section>
+  <section class="section-inner directory-content" id="businesses" aria-labelledby="directory-heading">
+    <div class="directory-section-heading"><div><p class="kicker">Afghan business directory</p><h2 id="directory-heading">Find a local favourite</h2></div><span class="directory-updated">Researched Sep 19, 2026</span></div>
+    <form id="directory-filters" class="directory-filters" role="search" hidden>
+      <div class="directory-field directory-search"><label for="business-search">Search directory</label><input id="business-search" name="q" type="search" placeholder="Name, city, food or address…" autocomplete="off"></div>
+      <div class="directory-field"><label for="business-category">Business type</label><select id="business-category" name="category"><option value="">All types</option><option value="restaurant">Restaurants</option><option value="grocery">Grocery stores</option><option value="bakery">Bakeries &amp; cafés</option></select></div>
+      <div class="directory-field"><label for="business-city">City</label><select id="business-city" name="city"><option value="">All BC cities</option><option value="Abbotsford">Abbotsford</option><option value="Burnaby">Burnaby</option><option value="Coquitlam">Coquitlam</option><option value="Delta">Delta</option><option value="North Vancouver">North Vancouver</option><option value="Port Coquitlam">Port Coquitlam</option><option value="Richmond">Richmond</option><option value="Surrey">Surrey</option><option value="Vancouver">Vancouver</option><option value="Victoria">Victoria</option></select></div>
+      <button type="reset" class="directory-reset">Clear filters</button>
+    </form>
+    <noscript><p>All businesses are listed below. Enable JavaScript to search and filter the directory.</p></noscript>
+    <div class="directory-results-bar"><p id="results-count" role="status" aria-live="polite" aria-atomic="true">Showing all 32 businesses</p><span>Listed A–Z</span></div>
+    <div class="business-grid">
+      <article class="business-card" data-city="Burnaby" data-categories="restaurant">
+        <div class="business-tags"><span class="business-tag restaurant">Restaurant</span></div>
+        <h3>A Kabul Shawarma Donair</h3>
+        <p class="business-description">Afghan dishes, shawarma and donair on Edmonds Street.</p>
+        <address>7339 Edmonds Street<br>Burnaby, BC</address>
+        <a class="business-phone" href="tel:+16045539146">604-553-9146</a>
+        <div class="business-actions"><a class="map-link" href="https://www.google.com/maps/search/?api=1&amp;query=A+Kabul+Shawarma+Donair+7339+Edmonds+Street%2C+Burnaby%2C+BC%2C+Canada" target="_blank" rel="noopener noreferrer">Google Maps <span aria-hidden="true">↗</span></a><a href="https://www.aksdonair.ca/" target="_blank" rel="noopener noreferrer">Website <span aria-hidden="true">↗</span></a></div>
+        <a class="business-source" href="https://www.aksdonair.ca/table-reservations" target="_blank" rel="noopener noreferrer" aria-label="Listing source for A Kabul Shawarma Donair">Listing source <span aria-hidden="true">↗</span></a>
+      </article>
+      <article class="business-card" data-city="Surrey" data-categories="restaurant bakery">
+        <div class="business-tags"><span class="business-tag restaurant">Restaurant</span><span class="business-tag bakery">Bakery &amp; café</span></div>
+        <h3>Afghan Bakery &amp; Fast Food</h3>
+        <p class="business-description">Afghan bread and casual meals in Surrey.</p>
+        <address>13748 104 Avenue<br>Surrey, BC</address>
+        <a class="business-phone" href="tel:+16045810100">604-581-0100</a>
+        <div class="business-actions"><a class="map-link" href="https://www.google.com/maps/search/?api=1&amp;query=Afghan+Bakery+%26+Fast+Food+13748+104+Avenue%2C+Surrey%2C+BC%2C+Canada" target="_blank" rel="noopener noreferrer">Google Maps <span aria-hidden="true">↗</span></a></div>
+        <a class="business-source" href="https://www.menupix.com/vancouver/restaurants/1117016/Afghan-Bakery-and-Fast-Food-Surrey-BC" target="_blank" rel="noopener noreferrer" aria-label="Listing source for Afghan Bakery &amp; Fast Food">Listing source <span aria-hidden="true">↗</span></a>
+      </article>
+      <article class="business-card" data-city="Richmond" data-categories="restaurant bakery">
+        <div class="business-tags"><span class="business-tag restaurant">Restaurant</span><span class="business-tag bakery">Bakery &amp; café</span></div>
+        <h3>Afghan Chopan Bakery &amp; Diner</h3>
+        <p class="business-description">Afghan dining at Richmond Public Market.</p>
+        <address>1600–8260 Westminster Highway<br>Richmond, BC</address>
+        <a class="business-phone" href="tel:+16042736505">604-273-6505</a>
+        <div class="business-actions"><a class="map-link" href="https://www.google.com/maps/search/?api=1&amp;query=Afghan+Chopan+Bakery+%26+Diner+1600%E2%80%938260+Westminster+Highway%2C+Richmond%2C+BC%2C+Canada" target="_blank" rel="noopener noreferrer">Google Maps <span aria-hidden="true">↗</span></a><a href="https://afghanchopanrichmond.com/" target="_blank" rel="noopener noreferrer">Website <span aria-hidden="true">↗</span></a></div>
+        <a class="business-source" href="https://afghanchopanrichmond.com/location.html" target="_blank" rel="noopener noreferrer" aria-label="Listing source for Afghan Chopan Bakery &amp; Diner">Listing source <span aria-hidden="true">↗</span></a>
+      </article>
+      <article class="business-card" data-city="Surrey" data-categories="restaurant">
+        <div class="business-tags"><span class="business-tag restaurant">Restaurant</span></div>
+        <h3>Afghan Chopan Restaurant</h3>
+        <p class="business-description">Traditional Afghan cuisine in Surrey.</p>
+        <address>12888 80 Avenue<br>Surrey, BC</address>
+        <a class="business-phone" href="tel:+16045432385">604-543-2385</a>
+        <div class="business-actions"><a class="map-link" href="https://www.google.com/maps/search/?api=1&amp;query=Afghan+Chopan+Restaurant+12888+80+Avenue%2C+Surrey%2C+BC%2C+Canada" target="_blank" rel="noopener noreferrer">Google Maps <span aria-hidden="true">↗</span></a><a href="https://afghanchopan.ca/" target="_blank" rel="noopener noreferrer">Website <span aria-hidden="true">↗</span></a></div>
+        <a class="business-source" href="https://afghanchopan.ca/contact-us/" target="_blank" rel="noopener noreferrer" aria-label="Listing source for Afghan Chopan Restaurant">Listing source <span aria-hidden="true">↗</span></a>
+      </article>
+      <article class="business-card" data-city="Vancouver" data-categories="restaurant">
+        <div class="business-tags"><span class="business-tag restaurant">Restaurant</span></div>
+        <h3>Afghan Horsemen Restaurant</h3>
+        <p class="business-description">Afghan dining near the entrance to Granville Island.</p>
+        <address>202–1833 Anderson Street<br>Vancouver, BC</address>
+        <a class="business-phone" href="tel:+16048735923">604-873-5923</a>
+        <div class="business-actions"><a class="map-link" href="https://www.google.com/maps/search/?api=1&amp;query=Afghan+Horsemen+Restaurant+202%E2%80%931833+Anderson+Street%2C+Vancouver%2C+BC%2C+Canada" target="_blank" rel="noopener noreferrer">Google Maps <span aria-hidden="true">↗</span></a><a href="https://afghanhorsemen.com/" target="_blank" rel="noopener noreferrer">Website <span aria-hidden="true">↗</span></a></div>
+        <a class="business-source" href="https://afghanhorsemen.com/" target="_blank" rel="noopener noreferrer" aria-label="Listing source for Afghan Horsemen Restaurant">Listing source <span aria-hidden="true">↗</span></a>
+      </article>
+      <article class="business-card" data-city="Surrey" data-categories="restaurant">
+        <div class="business-tags"><span class="business-tag restaurant">Restaurant</span></div>
+        <h3>Afghan Kitchen South Surrey</h3>
+        <p class="business-description">Family-run Afghan restaurant at Grandview Central.</p>
+        <address>115–16120 24 Avenue<br>Surrey, BC</address>
+        <a class="business-phone" href="tel:+16047270070">604-727-0070</a>
+        <div class="business-actions"><a class="map-link" href="https://www.google.com/maps/search/?api=1&amp;query=Afghan+Kitchen+South+Surrey+115%E2%80%9316120+24+Avenue%2C+Surrey%2C+BC%2C+Canada" target="_blank" rel="noopener noreferrer">Google Maps <span aria-hidden="true">↗</span></a><a href="https://aksurrey.com/" target="_blank" rel="noopener noreferrer">Website <span aria-hidden="true">↗</span></a></div>
+        <a class="business-source" href="https://aksurrey.com/" target="_blank" rel="noopener noreferrer" aria-label="Listing source for Afghan Kitchen South Surrey">Listing source <span aria-hidden="true">↗</span></a>
+      </article>
+      <article class="business-card" data-city="Abbotsford" data-categories="grocery">
+        <div class="business-tags"><span class="business-tag grocery">Grocery store</span></div>
+        <h3>Afghan Super Market</h3>
+        <p class="business-description">Groceries, produce and meat on Clearbrook Road.</p>
+        <address>102–2359 Clearbrook Road<br>Abbotsford, BC</address>
+        <a class="business-phone" href="tel:+16047441335">604-744-1335</a>
+        <div class="business-actions"><a class="map-link" href="https://www.google.com/maps/search/?api=1&amp;query=Afghan+Super+Market+102%E2%80%932359+Clearbrook+Road%2C+Abbotsford%2C+BC%2C+Canada" target="_blank" rel="noopener noreferrer">Google Maps <span aria-hidden="true">↗</span></a></div>
+        <a class="business-source" href="https://www.yellowpages.ca/bus/British-Columbia/Abbotsford/Afghan-Super-Market/104470580.html" target="_blank" rel="noopener noreferrer" aria-label="Listing source for Afghan Super Market">Listing source <span aria-hidden="true">↗</span></a>
+      </article>
+      <article class="business-card" data-city="Burnaby" data-categories="restaurant">
+        <div class="business-tags"><span class="business-tag restaurant">Restaurant</span></div>
+        <h3>Afghan Turkish Cuisine</h3>
+        <p class="business-description">Afghan and Turkish dishes in Burnaby Heights.</p>
+        <address>422 Willingdon Avenue<br>Burnaby, BC</address>
+        <a class="business-phone" href="tel:+16045634131">604-563-4131</a>
+        <div class="business-actions"><a class="map-link" href="https://www.google.com/maps/search/?api=1&amp;query=Afghan+Turkish+Cuisine+422+Willingdon+Avenue%2C+Burnaby%2C+BC%2C+Canada" target="_blank" rel="noopener noreferrer">Google Maps <span aria-hidden="true">↗</span></a><a href="https://www.afghanturkishcuisine.ca/" target="_blank" rel="noopener noreferrer">Website <span aria-hidden="true">↗</span></a></div>
+        <a class="business-source" href="https://www.burnabyheights.com/listings/afghan-turkish-cuisine/" target="_blank" rel="noopener noreferrer" aria-label="Listing source for Afghan Turkish Cuisine">Listing source <span aria-hidden="true">↗</span></a>
+      </article>
+      <article class="business-card" data-city="Surrey" data-categories="grocery">
+        <div class="business-tags"><span class="business-tag grocery">Grocery store</span></div>
+        <h3>Al Salam Halal Meat &amp; Grocery Surrey</h3>
+        <p class="business-description">Meat and groceries on 137 Street in Surrey.</p>
+        <address>1103–7360 137 Street<br>Surrey, BC</address>
+        <a class="business-phone" href="tel:+16045035223">604-503-5223</a>
+        <div class="business-actions"><a class="map-link" href="https://maps.app.goo.gl/jxANdCwndX7hjdsP7" target="_blank" rel="noopener noreferrer">Google Maps <span aria-hidden="true">↗</span></a></div>
+        <a class="business-source" href="https://www.allbiz.ca/al-salam-halal-meat-grocery-surrey-604-503-5223" target="_blank" rel="noopener noreferrer" aria-label="Listing source for Al Salam Halal Meat &amp; Grocery Surrey">Listing source <span aria-hidden="true">↗</span></a>
+      </article>
+      <article class="business-card" data-city="Coquitlam" data-categories="restaurant">
+        <div class="business-tags"><span class="business-tag restaurant">Restaurant</span></div>
+        <h3>Aria Afghan Grill</h3>
+        <p class="business-description">Afghan grill and kababs on Brunette Avenue.</p>
+        <address>925 Brunette Avenue<br>Coquitlam, BC</address>
+        <a class="business-phone" href="tel:+16045490900">604-549-0900</a>
+        <div class="business-actions"><a class="map-link" href="https://www.google.com/maps/search/?api=1&amp;query=Aria+Afghan+Grill+925+Brunette+Avenue%2C+Coquitlam%2C+BC%2C+Canada" target="_blank" rel="noopener noreferrer">Google Maps <span aria-hidden="true">↗</span></a><a href="https://ariaafghangrill.com/" target="_blank" rel="noopener noreferrer">Website <span aria-hidden="true">↗</span></a></div>
+        <a class="business-source" href="https://ariaafghangrill.com/location/" target="_blank" rel="noopener noreferrer" aria-label="Listing source for Aria Afghan Grill">Listing source <span aria-hidden="true">↗</span></a>
+      </article>
+      <article class="business-card" data-city="Port Coquitlam" data-categories="restaurant">
+        <div class="business-tags"><span class="business-tag restaurant">Restaurant</span></div>
+        <h3>Day 2 Day Halal Restaurant</h3>
+        <p class="business-description">Family-run restaurant serving Persian and Afghan food.</p>
+        <address>101–2540 Shaughnessy Street<br>Port Coquitlam, BC</address>
+        <a class="business-phone" href="tel:+16044756559">604-475-6559</a>
+        <div class="business-actions"><a class="map-link" href="https://www.google.com/maps/search/?api=1&amp;query=Day+2+Day+Halal+Restaurant+101%E2%80%932540+Shaughnessy+Street%2C+Port+Coquitlam%2C+BC%2C+Canada" target="_blank" rel="noopener noreferrer">Google Maps <span aria-hidden="true">↗</span></a><a href="https://day2dayrestaurant.ca/" target="_blank" rel="noopener noreferrer">Website <span aria-hidden="true">↗</span></a></div>
+        <a class="business-source" href="https://day2dayrestaurant.ca/" target="_blank" rel="noopener noreferrer" aria-label="Listing source for Day 2 Day Halal Restaurant">Listing source <span aria-hidden="true">↗</span></a>
+      </article>
+      <article class="business-card" data-city="Vancouver" data-categories="restaurant">
+        <div class="business-tags"><span class="business-tag restaurant">Restaurant</span></div>
+        <h3>East is East — Broadway</h3>
+        <p class="business-description">Silk Road cooking with Afghan, Indian and Persian influences.</p>
+        <address>3035 West Broadway<br>Vancouver, BC</address>
+        <a class="business-phone" href="tel:+16047345881">604-734-5881</a>
+        <div class="business-actions"><a class="map-link" href="https://www.google.com/maps/search/?api=1&amp;query=East+is+East+%E2%80%94+Broadway+3035+West+Broadway%2C+Vancouver%2C+BC%2C+Canada" target="_blank" rel="noopener noreferrer">Google Maps <span aria-hidden="true">↗</span></a><a href="https://www.eastiseast.ca/" target="_blank" rel="noopener noreferrer">Website <span aria-hidden="true">↗</span></a></div>
+        <a class="business-source" href="https://www.google.com/maps/search/East%2BIs%2BEast%2Bnear%2B2766%2BW%2B10th%2BAve%2BVancouver" target="_blank" rel="noopener noreferrer" aria-label="Listing source for East is East — Broadway">Listing source <span aria-hidden="true">↗</span></a>
+      </article>
+      <article class="business-card" data-city="Vancouver" data-categories="restaurant">
+        <div class="business-tags"><span class="business-tag restaurant">Restaurant</span></div>
+        <h3>East is East — Main Street</h3>
+        <p class="business-description">Silk Road cooking with Afghan, Indian and Persian influences.</p>
+        <address>4433 Main Street<br>Vancouver, BC</address>
+        <a class="business-phone" href="tel:+16045654401">604-565-4401</a>
+        <div class="business-actions"><a class="map-link" href="https://www.google.com/maps/search/?api=1&amp;query=East+is+East+%E2%80%94+Main+Street+4433+Main+Street%2C+Vancouver%2C+BC%2C+Canada" target="_blank" rel="noopener noreferrer">Google Maps <span aria-hidden="true">↗</span></a><a href="https://www.eastiseast.ca/" target="_blank" rel="noopener noreferrer">Website <span aria-hidden="true">↗</span></a></div>
+        <a class="business-source" href="https://www.google.com/maps/search/East%2BIs%2BEast%2Bnear%2B2766%2BW%2B10th%2BAve%2BVancouver" target="_blank" rel="noopener noreferrer" aria-label="Listing source for East is East — Main Street">Listing source <span aria-hidden="true">↗</span></a>
+      </article>
+      <article class="business-card" data-city="Surrey" data-categories="restaurant">
+        <div class="business-tags"><span class="business-tag restaurant">Restaurant</span></div>
+        <h3>Great Afghan Kabob</h3>
+        <p class="business-description">Afghan kabobs and traditional cuisine in Surrey.</p>
+        <address>105–5570 152 Street<br>Surrey, BC</address>
+        <a class="business-phone" href="tel:+17785744030">778-574-4030</a>
+        <div class="business-actions"><a class="map-link" href="https://www.google.com/maps/search/?api=1&amp;query=Great+Afghan+Kabob+105%E2%80%935570+152+Street%2C+Surrey%2C+BC%2C+Canada" target="_blank" rel="noopener noreferrer">Google Maps <span aria-hidden="true">↗</span></a><a href="https://www.greatafghankabob.com/" target="_blank" rel="noopener noreferrer">Website <span aria-hidden="true">↗</span></a></div>
+        <a class="business-source" href="https://www.greatafghankabob.com/" target="_blank" rel="noopener noreferrer" aria-label="Listing source for Great Afghan Kabob">Listing source <span aria-hidden="true">↗</span></a>
+      </article>
+      <article class="business-card" data-city="Surrey" data-categories="grocery">
+        <div class="business-tags"><span class="business-tag grocery">Grocery store</span></div>
+        <h3>Habib Market ltd</h3>
+        <p class="business-description">A neighbourhood grocery and meat market on Whalley Boulevard.</p>
+        <address>10119 Whalley Boulevard<br>Surrey, BC</address>
+        <a class="business-phone" href="tel:+16045846500">604-584-6500</a>
+        <div class="business-actions"><a class="map-link" href="https://maps.app.goo.gl/VBcYT3dd1uCSFEmt6" target="_blank" rel="noopener noreferrer">Google Maps <span aria-hidden="true">↗</span></a></div>
+        <a class="business-source" href="https://www.waze.com/live-map/directions/ca/bc/surrey/habib-market-ltd?to=place.ChIJV9DZtdXZhVQRs6v4X60yjJU" target="_blank" rel="noopener noreferrer" aria-label="Listing source for Habib Market ltd">Listing source <span aria-hidden="true">↗</span></a>
+      </article>
+      <article class="business-card" data-city="Surrey" data-categories="grocery">
+        <div class="business-tags"><span class="business-tag grocery">Grocery store</span></div>
+        <h3>Halal Bazar Meat &amp; Groceries</h3>
+        <p class="business-description">A community grocery and meat store on 120 Street in Surrey.</p>
+        <address>9288 120 St #120<br>Surrey, BC V3V 4B8</address>
+        <a class="business-phone" href="tel:+12368694764">236-869-4764</a>
+        <div class="business-actions"><a class="map-link" href="https://www.google.com/maps/search/?api=1&amp;query=Halal+Bazar+Meat+%26+Groceries+9288+120+St+%23120%2C+Surrey%2C+BC+V3V+4B8%2C+Canada" target="_blank" rel="noopener noreferrer">Google Maps <span aria-hidden="true">↗</span></a></div>
+        <a class="business-source" href="https://www.google.com/search?q=halal+bazar+meat+%26+groceries" target="_blank" rel="noopener noreferrer" aria-label="Listing source for Halal Bazar Meat &amp; Groceries">Listing source <span aria-hidden="true">↗</span></a>
+      </article>
+      <article class="business-card" data-city="Surrey" data-categories="grocery">
+        <div class="business-tags"><span class="business-tag grocery">Grocery store</span></div>
+        <h3>Huda Supermarket and Halal Meat</h3>
+        <p class="business-description">A supermarket and meat shop on 104 Avenue.</p>
+        <address>101–13979 104 Avenue<br>Surrey, BC</address>
+        <a class="business-phone" href="tel:+16043696272">604-369-6272</a>
+        <div class="business-actions"><a class="map-link" href="https://maps.app.goo.gl/9BR57dERsBqYMm2A7" target="_blank" rel="noopener noreferrer">Google Maps <span aria-hidden="true">↗</span></a></div>
+        <a class="business-source" href="https://www.surreyspeak.com/directory/business/huda-supermarket/" target="_blank" rel="noopener noreferrer" aria-label="Listing source for Huda Supermarket and Halal Meat">Listing source <span aria-hidden="true">↗</span></a>
+      </article>
+      <article class="business-card" data-city="Coquitlam" data-categories="restaurant">
+        <div class="business-tags"><span class="business-tag restaurant">Restaurant</span></div>
+        <h3>Jamila’s Kitchen &amp; Grill</h3>
+        <p class="business-description">Afghan, Indian and Greek cooking from Jamila’s kitchen.</p>
+        <address>103–2733 Barnet Highway<br>Coquitlam, BC</address>
+        <a class="business-phone" href="tel:+16044641000">604-464-1000</a>
+        <div class="business-actions"><a class="map-link" href="https://www.google.com/maps/search/?api=1&amp;query=Jamila%E2%80%99s+Kitchen+%26+Grill+103%E2%80%932733+Barnet+Highway%2C+Coquitlam%2C+BC%2C+Canada" target="_blank" rel="noopener noreferrer">Google Maps <span aria-hidden="true">↗</span></a><a href="https://www.jamilas.ca/" target="_blank" rel="noopener noreferrer">Website <span aria-hidden="true">↗</span></a></div>
+        <a class="business-source" href="https://visitcoquitlam.ca/eat-drink/" target="_blank" rel="noopener noreferrer" aria-label="Listing source for Jamila’s Kitchen &amp; Grill">Listing source <span aria-hidden="true">↗</span></a>
+      </article>
+      <article class="business-card" data-city="Burnaby" data-categories="grocery">
+        <div class="business-tags"><span class="business-tag grocery">Grocery store</span></div>
+        <h3>Kabul Bazaar Halal Meat &amp; Foods</h3>
+        <p class="business-description">A neighbourhood grocery and meat shop listed in BC’s Afghan community resources.</p>
+        <address>7622 6th Street<br>Burnaby, BC</address>
+        
+        <div class="business-actions"><a class="map-link" href="https://www.google.com/maps/search/?api=1&amp;query=Kabul+Bazaar+Halal+Meat+%26+Foods+7622+6th+Street%2C+Burnaby%2C+BC%2C+Canada" target="_blank" rel="noopener noreferrer">Google Maps <span aria-hidden="true">↗</span></a></div>
+        <a class="business-source" href="https://www.zabihah.com/restaurants/ca26fba0-7767-11ef-95ae-6045bdeb9f57/kabul-bazaar-halal-meat-foods-burnaby-bc" target="_blank" rel="noopener noreferrer" aria-label="Listing source for Kabul Bazaar Halal Meat &amp; Foods">Listing source <span aria-hidden="true">↗</span></a>
+      </article>
+      <article class="business-card" data-city="Surrey" data-categories="grocery">
+        <div class="business-tags"><span class="business-tag grocery">Grocery store</span></div>
+        <h3>KabulVan Supermarket</h3>
+        <p class="business-description">Afghan and Middle Eastern groceries on King George Boulevard.</p>
+        <address>6764 King George Boulevard<br>Surrey, BC</address>
+        <a class="business-phone" href="tel:+12364530295">236-453-0295</a>
+        <div class="business-actions"><a class="map-link" href="https://www.google.com/maps/search/?api=1&amp;query=KabulVan+Supermarket+6764+King+George+Boulevard%2C+Surrey%2C+BC%2C+Canada" target="_blank" rel="noopener noreferrer">Google Maps <span aria-hidden="true">↗</span></a><a href="https://kabulvan.ca/" target="_blank" rel="noopener noreferrer">Website <span aria-hidden="true">↗</span></a></div>
+        <a class="business-source" href="https://kabulvan.ca/shop/" target="_blank" rel="noopener noreferrer" aria-label="Listing source for KabulVan Supermarket">Listing source <span aria-hidden="true">↗</span></a>
+      </article>
+      <article class="business-card" data-city="Surrey" data-categories="grocery">
+        <div class="business-tags"><span class="business-tag grocery">Grocery store</span></div>
+        <h3>Karvan Food Market</h3>
+        <p class="business-description">A grocery market on 72 Avenue in Surrey.</p>
+        <address>13627 72 Avenue<br>Surrey, BC</address>
+        <a class="business-phone" href="tel:+17782555568">778-255-5568</a>
+        <div class="business-actions"><a class="map-link" href="https://maps.app.goo.gl/Fc1TfJbNPZ6XWwRN7" target="_blank" rel="noopener noreferrer">Google Maps <span aria-hidden="true">↗</span></a></div>
+        <a class="business-source" href="https://www.bbb.org/ca/bc/white-rock/category/grocery-store" target="_blank" rel="noopener noreferrer" aria-label="Listing source for Karvan Food Market">Listing source <span aria-hidden="true">↗</span></a>
+      </article>
+      <article class="business-card" data-city="Surrey" data-categories="restaurant">
+        <div class="business-tags"><span class="business-tag restaurant">Restaurant</span></div>
+        <h3>King George Donair Halal</h3>
+        <p class="business-description">A donair restaurant on 100 Avenue in Surrey.</p>
+        <address>13635 100 Ave<br>Surrey, BC V3T 1H9</address>
+        <a class="business-phone" href="tel:+16045891327">604-589-1327</a>
+        <div class="business-actions"><a class="map-link" href="https://maps.app.goo.gl/zfBJusTtGVEcsuTz9" target="_blank" rel="noopener noreferrer">Google Maps <span aria-hidden="true">↗</span></a><a href="https://king-george-donair.com/en" target="_blank" rel="noopener noreferrer">Website <span aria-hidden="true">↗</span></a></div>
+        <a class="business-source" href="https://maps.app.goo.gl/zfBJusTtGVEcsuTz9" target="_blank" rel="noopener noreferrer" aria-label="Listing source for King George Donair Halal">Listing source <span aria-hidden="true">↗</span></a>
+      </article>
+      <article class="business-card" data-city="Victoria" data-categories="restaurant">
+        <div class="business-tags"><span class="business-tag restaurant">Restaurant</span></div>
+        <h3>Mantu Afghan Persian Cuisine</h3>
+        <p class="business-description">Afghan and Persian cuisine in downtown Victoria.</p>
+        <address>101–1420 Quadra Street<br>Victoria, BC</address>
+        <a class="business-phone" href="tel:+17789229262">778-922-9262</a>
+        <div class="business-actions"><a class="map-link" href="https://www.google.com/maps/search/?api=1&amp;query=Mantu+Afghan+Persian+Cuisine+101%E2%80%931420+Quadra+Street%2C+Victoria%2C+BC%2C+Canada" target="_blank" rel="noopener noreferrer">Google Maps <span aria-hidden="true">↗</span></a><a href="https://mantucuisine.com/" target="_blank" rel="noopener noreferrer">Website <span aria-hidden="true">↗</span></a></div>
+        <a class="business-source" href="https://mantucuisine.com/contact/" target="_blank" rel="noopener noreferrer" aria-label="Listing source for Mantu Afghan Persian Cuisine">Listing source <span aria-hidden="true">↗</span></a>
+      </article>
+      <article class="business-card" data-city="North Vancouver" data-categories="restaurant">
+        <div class="business-tags"><span class="business-tag restaurant">Restaurant</span></div>
+        <h3>Mehman Restaurant</h3>
+        <p class="business-description">Persian and Afghan dishes on Lonsdale Avenue.</p>
+        <address>1451 Lonsdale Avenue<br>North Vancouver, BC</address>
+        <a class="business-phone" href="tel:+17783400200">778-340-0200</a>
+        <div class="business-actions"><a class="map-link" href="https://www.google.com/maps/search/?api=1&amp;query=Mehman+Restaurant+1451+Lonsdale+Avenue%2C+North+Vancouver%2C+BC%2C+Canada" target="_blank" rel="noopener noreferrer">Google Maps <span aria-hidden="true">↗</span></a><a href="https://mehmanrestaurant.ca/" target="_blank" rel="noopener noreferrer">Website <span aria-hidden="true">↗</span></a></div>
+        <a class="business-source" href="https://www.restaurantji.com/bc/north-vancouver/mehman-restaurant-/" target="_blank" rel="noopener noreferrer" aria-label="Listing source for Mehman Restaurant">Listing source <span aria-hidden="true">↗</span></a>
+      </article>
+      <article class="business-card" data-city="Burnaby" data-categories="bakery">
+        <div class="business-tags"><span class="business-tag bakery">Bakery &amp; café</span></div>
+        <h3>Mostafa Coffee House &amp; Bakery</h3>
+        <p class="business-description">Coffee, pastries, baklava and sweets on Edmonds Street.</p>
+        <address>7411 Edmonds Street<br>Burnaby, BC</address>
+        <a class="business-phone" href="tel:+16045217979">604-521-7979</a>
+        <div class="business-actions"><a class="map-link" href="https://www.google.com/maps/search/?api=1&amp;query=Mostafa+Coffee+House+%26+Bakery+7411+Edmonds+Street%2C+Burnaby%2C+BC%2C+Canada" target="_blank" rel="noopener noreferrer">Google Maps <span aria-hidden="true">↗</span></a><a href="https://mostafacoffeehouse.wixsite.com/mostafa/" target="_blank" rel="noopener noreferrer">Website <span aria-hidden="true">↗</span></a></div>
+        <a class="business-source" href="https://mostafacoffeehouse.wixsite.com/mostafa/menu" target="_blank" rel="noopener noreferrer" aria-label="Listing source for Mostafa Coffee House &amp; Bakery">Listing source <span aria-hidden="true">↗</span></a>
+      </article>
+      <article class="business-card" data-city="Burnaby" data-categories="grocery">
+        <div class="business-tags"><span class="business-tag grocery">Grocery store</span></div>
+        <h3>Mostafa Supermarket &amp; Halal Meat</h3>
+        <p class="business-description">Afghan grocery items and meat in the Edmonds neighbourhood.</p>
+        <address>7421 Edmonds Street<br>Burnaby, BC</address>
+        <a class="business-phone" href="tel:+16045217977">604-521-7977</a>
+        <div class="business-actions"><a class="map-link" href="https://www.google.com/maps/search/?api=1&amp;query=Mostafa+Supermarket+%26+Halal+Meat+7421+Edmonds+Street%2C+Burnaby%2C+BC%2C+Canada" target="_blank" rel="noopener noreferrer">Google Maps <span aria-hidden="true">↗</span></a></div>
+        <a class="business-source" href="https://www.waze.com/live-map/directions/ca/bc/burnaby/mostafa-supermarket-halal-meat?to=place.ChIJsadg2Mh3hlQRtpRMxtBhmyg" target="_blank" rel="noopener noreferrer" aria-label="Listing source for Mostafa Supermarket &amp; Halal Meat">Listing source <span aria-hidden="true">↗</span></a>
+      </article>
+      <article class="business-card" data-city="Delta" data-categories="restaurant">
+        <div class="business-tags"><span class="business-tag restaurant">Restaurant</span></div>
+        <h3>Pamir Diner Afghan Cuisine</h3>
+        <p class="business-description">Traditional Afghan meals on Scott Road in Delta.</p>
+        <address>9535 120 Street<br>Delta, BC</address>
+        <a class="business-phone" href="tel:+17783943393">778-394-3393</a>
+        <div class="business-actions"><a class="map-link" href="https://www.google.com/maps/search/?api=1&amp;query=Pamir+Diner+Afghan+Cuisine+9535+120+Street%2C+Delta%2C+BC%2C+Canada" target="_blank" rel="noopener noreferrer">Google Maps <span aria-hidden="true">↗</span></a><a href="https://pamirdiner.com/" target="_blank" rel="noopener noreferrer">Website <span aria-hidden="true">↗</span></a></div>
+        <a class="business-source" href="https://pamirdiner.com/contact/" target="_blank" rel="noopener noreferrer" aria-label="Listing source for Pamir Diner Afghan Cuisine">Listing source <span aria-hidden="true">↗</span></a>
+      </article>
+      <article class="business-card" data-city="Richmond" data-categories="restaurant">
+        <div class="business-tags"><span class="business-tag restaurant">Restaurant</span></div>
+        <h3>Shawarma Palace — Richmond</h3>
+        <p class="business-description">Shawarma Palace’s Richmond location.</p>
+        <address>11020 No 5 Rd #123<br>Richmond, BC V7A 4E7</address>
+        <a class="business-phone" href="tel:+16042842742">604-284-2742</a>
+        <div class="business-actions"><a class="map-link" href="https://www.google.com/maps/search/?api=1&amp;query=Shawarma+Palace+11020+No+5+Rd+%23123%2C+Richmond%2C+BC+V7A+4E7%2C+Canada" target="_blank" rel="noopener noreferrer">Google Maps <span aria-hidden="true">↗</span></a><a href="https://shawarmapalacebc.com/" target="_blank" rel="noopener noreferrer">Website <span aria-hidden="true">↗</span></a><a href="https://shawarmapalacebc.com/food-menu/" target="_blank" rel="noopener noreferrer">Menu <span aria-hidden="true">↗</span></a></div>
+        <a class="business-source" href="https://shawarmapalacebc.com/" target="_blank" rel="noopener noreferrer" aria-label="Listing source for Shawarma Palace — Richmond">Listing source <span aria-hidden="true">↗</span></a>
+      </article>
+      <article class="business-card" data-city="Surrey" data-categories="restaurant">
+        <div class="business-tags"><span class="business-tag restaurant">Restaurant</span></div>
+        <h3>Shawarma Palace — Surrey</h3>
+        <p class="business-description">Shawarma Palace’s Surrey location.</p>
+        <address>7218 King George Blvd<br>Surrey, BC V3W 5A5</address>
+        <a class="business-phone" href="tel:+17785913399">778-591-3399</a>
+        <div class="business-actions"><a class="map-link" href="https://www.google.com/maps/search/?api=1&amp;query=Shawarma+Palace+7218+King+George+Blvd%2C+Surrey%2C+BC+V3W+5A5%2C+Canada" target="_blank" rel="noopener noreferrer">Google Maps <span aria-hidden="true">↗</span></a><a href="https://shawarmapalacebc.com/" target="_blank" rel="noopener noreferrer">Website <span aria-hidden="true">↗</span></a><a href="https://shawarmapalacebc.com/food-menu/" target="_blank" rel="noopener noreferrer">Menu <span aria-hidden="true">↗</span></a></div>
+        <a class="business-source" href="https://shawarmapalacebc.com/" target="_blank" rel="noopener noreferrer" aria-label="Listing source for Shawarma Palace — Surrey">Listing source <span aria-hidden="true">↗</span></a>
+      </article>
+      <article class="business-card" data-city="Surrey" data-categories="bakery grocery">
+        <div class="business-tags"><span class="business-tag bakery">Bakery &amp; café</span><span class="business-tag grocery">Grocery store</span></div>
+        <h3>Stone Oven Bakery</h3>
+        <p class="business-description">Afghan bread, bolani and groceries in a neighbourhood bakery.</p>
+        <address>13920 104 Avenue<br>Surrey, BC</address>
+        <a class="business-phone" href="tel:+17782930015">778-293-0015</a>
+        <div class="business-actions"><a class="map-link" href="https://www.google.com/maps/search/?api=1&amp;query=Stone+Oven+Bakery+13920+104+Avenue%2C+Surrey%2C+BC%2C+Canada" target="_blank" rel="noopener noreferrer">Google Maps <span aria-hidden="true">↗</span></a></div>
+        <a class="business-source" href="https://www.restaurantji.com/bc/surrey/stone-oven-bakery-/" target="_blank" rel="noopener noreferrer" aria-label="Listing source for Stone Oven Bakery">Listing source <span aria-hidden="true">↗</span></a>
+      </article>
+      <article class="business-card" data-city="Vancouver" data-categories="restaurant">
+        <div class="business-tags"><span class="business-tag restaurant">Restaurant</span></div>
+        <h3>Zarak by Afghan Kitchen</h3>
+        <p class="business-description">Afghan-inspired dining in Mount Pleasant.</p>
+        <address>2102 Main Street<br>Vancouver, BC</address>
+        
+        <div class="business-actions"><a class="map-link" href="https://www.google.com/maps/search/?api=1&amp;query=Zarak+by+Afghan+Kitchen+2102+Main+Street%2C+Vancouver%2C+BC%2C+Canada" target="_blank" rel="noopener noreferrer">Google Maps <span aria-hidden="true">↗</span></a><a href="https://www.zarakvancouver.com/" target="_blank" rel="noopener noreferrer">Website <span aria-hidden="true">↗</span></a></div>
+        <a class="business-source" href="https://www.zarakvancouver.com/contact" target="_blank" rel="noopener noreferrer" aria-label="Listing source for Zarak by Afghan Kitchen">Listing source <span aria-hidden="true">↗</span></a>
+      </article>
+      <article class="business-card" data-city="Richmond" data-categories="grocery">
+        <div class="business-tags"><span class="business-tag grocery">Grocery store</span></div>
+        <h3>Zeenat Market</h3>
+        <p class="business-description">Produce and Afghan and Persian grocery essentials in Seafair.</p>
+        <address>8671 No. 1 Road<br>Richmond, BC</address>
+        <a class="business-phone" href="tel:+17789944157">778-994-4157</a>
+        <div class="business-actions"><a class="map-link" href="https://www.google.com/maps/search/?api=1&amp;query=Zeenat+Market+8671+No.+1+Road%2C+Richmond%2C+BC%2C+Canada" target="_blank" rel="noopener noreferrer">Google Maps <span aria-hidden="true">↗</span></a><a href="https://zeenatmarket.com/" target="_blank" rel="noopener noreferrer">Website <span aria-hidden="true">↗</span></a></div>
+        <a class="business-source" href="https://zeenatmarket.com/" target="_blank" rel="noopener noreferrer" aria-label="Listing source for Zeenat Market">Listing source <span aria-hidden="true">↗</span></a>
+      </article>
+    </div>
+    <div id="directory-empty" class="directory-empty" hidden><h3>No matching businesses</h3><p>Try a different city, business type or search term.</p><button type="button" class="btn btn-outline" id="empty-reset">Clear all filters</button></div>
+    <div class="directory-note"><strong>A growing community directory.</strong> Listings include businesses offering Afghan cuisine or groceries and related community bakeries. Public sources are linked on each card; the list may not include every business in BC. Check with the business or Google Maps for current hours and details before visiting.</div>
+    <aside class="directory-contribute"><div><p class="kicker">Help our directory grow</p><h2>Know a place we’re missing?</h2><p>Send us a business name, address and website, or let us know if a listing needs a correction.</p></div><a class="btn btn-primary" href="mailto:info.afsociety@gmail.com?subject=Business%20directory%20addition%20or%20correction">Suggest a business <span aria-hidden="true">↗</span></a></aside>
+  </section>
+</main>
+<footer class="site-footer">
+  <div class="section-inner footer-grid">
+    <div class="footer-brand">
+      <img src="logo.png" alt="ANCS Logo">
+      <p>Afghan National Cultural Society — working for the integration and unity of Afghans in British Columbia. Est. 2021.</p>
+    </div>
+    <div class="footer-col">
+      <h4>Explore</h4>
+      <a href="index.html#about">About Us</a>
+      <a href="index.html#programs">Programs</a>
+      <a href="index.html#events">Events</a>
+      <a href="index.html#community">Community</a>
+      <a href="business-directory.html">Business Directory</a>
+    </div>
+    <div class="footer-col">
+      <h4>Contact</h4>
+      <a href="tel:+16043663267">+1 (604) 366-3267</a>
+      <a href="mailto:info.afsociety@gmail.com">info.afsociety@gmail.com</a>
+      <a href="https://www.facebook.com/profile.php?id=100090838821300" target="_blank" rel="noopener noreferrer">Facebook</a>
+      <a href="index.html#contact">Send a message</a>
+    </div>
+    <div class="footer-col">
+      <h4>Society</h4>
+      <a href="membership.html">Membership</a>
+      <a href="index.html#contact">Volunteer</a>
+      <a href="index.html#contact">Donate</a>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>© 2026 Afghan National Cultural Society (ANCS). All rights reserved.</span>
+    <a class="developer-credit" href="https://www.mohibwaziri.ca/" target="_blank" rel="noopener noreferrer">Developed with ❤️ by Mohib</a>
+    <span class="footer-tagline">وحدت در فرهنگ — Unity Through Culture</span>
+  </div>
+</footer>
+</body>
+</html>
